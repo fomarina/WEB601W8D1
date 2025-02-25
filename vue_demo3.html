@@ -21,8 +21,18 @@
             message: "I'm learning VUE for the first time!"
         }
     });
+
+    Vue.component('mycomponent2',{
+        template : '<div><p>VUE is interesting!</p></div>'
+    });
+    var vm1 = new Vue({
+        el: '#component1'
+    });
+    var vm2 = new Vue({
+        el: '#component2'
+    });
+
 </script>
-    
+
 </body>
 </html>
-

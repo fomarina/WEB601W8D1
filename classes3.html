@@ -4,11 +4,11 @@
 
 <h2>JavaScript Function as Class</h2>
 
-<script> 
+<script>
 
 function Person(FirstName, LastName, Age) {
         //Parameters/Properties as Constructor
-        
+
         //Method
         this.getFullName = function () {
             return this.firstName + " " + this.lastName;
@@ -23,6 +23,9 @@ alert(person1.getFullName());
 var person2 = new Person();
 alert(person2.getFullName());
 
+//Create object 3
+var person3 = new Person();
+alert(person3.getFullName());
 </script>
 
 
